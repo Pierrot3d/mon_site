@@ -259,7 +259,7 @@ p.content-text { font-size: 25px; }
 /* Contact */
 .contact-me-container{
 	padding:3%;
-background: rgb(13, 79, 136);
+background: #fff;
 }
 .fa-user,.fa-at,.fa-phone
 {
