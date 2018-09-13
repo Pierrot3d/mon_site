@@ -1,5 +1,5 @@
 $( window ).resize( function() {
-  centerSplash();
+//  centerSplash();
 });
 
 !function($){
@@ -204,7 +204,7 @@ $( window ).resize( function() {
     }
 
     $.fn.typed.defaults = {
-        strings: ["Hello, hola, hi! ", "Welcome to my website ", "Go on, scroll down", ":)"],
+        strings: ["Hello, hola, hi! ", "Bienvenue sur mon site", "Allez-y, descendez", ":)"],
         // typing and backspacing speed
         typeSpeed: 50, // speed decreases as number increased
         // time before backspacing
