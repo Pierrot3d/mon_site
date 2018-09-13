@@ -71,15 +71,6 @@ a.navbar-brand .fa-globe:hover
   padding-bottom: 10vh; /* No JS fallback*/
 }
 
-.profile-image {
-  border-radius: 50%;
-  display: block;
-  max-height:250px;
-  max-width: 250px;
-  margin: 0 auto 1em;
-  width: 100%;
-  opacity: 0.85;
-}
 
 .splash h1 {
   font-size: 40px;
