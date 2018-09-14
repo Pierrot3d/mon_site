@@ -31,14 +31,12 @@ ul.navbar-nav li
 {
   color:black!important;
   font-size:1.2em;
-  font-family: Nunito,sans-serif;
-  font-weight:600;
   transition: 0.4s ease;
 }
 .navbar-nav li a:hover
 {
   color:#fff!important;
-  background-color:black!important;
+  background-color:#53b8ba!important;
 }
 .navbar-brand {
   padding:10px 15px!important;
@@ -53,9 +51,15 @@ a.navbar-brand .fa-globe:hover
 {
   color: #3935e6;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-toggle .icon-bar {
     background-color: black!important;
 }
+
+.navbar-inverse {
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25) !important;
+  border: none !important;
+}
+
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #fff!important;
 }
