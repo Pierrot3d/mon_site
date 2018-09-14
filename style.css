@@ -189,13 +189,18 @@ section.success a:hover {
 {
   padding-bottom:2%;
 }
-hr.star-light,hr.star-portfolio {
+hr.star-light {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
     border: 0;
     border-top: solid 3px;
     text-align: center;
+}
+
+.text-portfolio {
+  margin-bottom: 1.5em;
+  text-align: center;
 }
 
 hr.star-light:after,hr.star-portfolio:after {
