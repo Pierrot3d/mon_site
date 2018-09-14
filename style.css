@@ -6,10 +6,9 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-body {
-  font-family: "Nunito";
+body, head, h1, h2, h3, h4, h5, h6, p, a {
+font-family: "Nunito" !important;
 }
-
 
 .starter-template {
   padding: 40px 15px;
