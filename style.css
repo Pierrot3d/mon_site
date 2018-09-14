@@ -27,7 +27,7 @@ ul.navbar-nav li
 {
   color:black!important;
   font-size:1.2em;
-  font-family: Century gothic,sans-serif;
+  font-family: Nunito,sans-serif;
   font-weight:600;
   transition: 0.4s ease;
 }
@@ -90,7 +90,7 @@ h1.intro-text
 .splash .lead {
   font-size: 30px;
   margin-bottom: 1em;
-  font-family: Rockwell;
+  font-family: Nunito;
 }
 @keyframes blink
   {
@@ -196,7 +196,7 @@ hr.star-light:after,hr.star-portfolio:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: Nunito;
     font-size: 2em;
 }
 
