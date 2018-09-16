@@ -177,6 +177,7 @@ section.success {
 
 section.success a
 {
+  margin-top: 2em;
   color:white;
   background-color:#53b8ba;
   transition: 0.4s ease;
@@ -185,7 +186,6 @@ section.success a:hover {
     outline: 0;
     color: #53b8ba;
     background-color: #fff;
-  border: 2px solid #53b8ba;
 }
 .contact-button
 {
@@ -265,8 +265,8 @@ p.content-text { font-size: 25px; }
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	background: #fff;
-	color: #000;
+	background: #53b8ba;
+	color: #fff;
 	text-align: center;
 	padding: 5px;
 }
@@ -284,12 +284,13 @@ background: #fff;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
 /* ========================
 Footer
 ======================== */
 
 footer {
-  background-color: #53b8ba;
+  background-color: #776F63;
   color:  #fff;
   font-size: 1.5em;
   text-align: center;
@@ -359,6 +360,16 @@ a.link-instagram:hover{
     border-color: transparent!important;
 }
 
+.btn-default:hover {
+  outline: 0;
+  background-color: #fff;
+  color: #53b8ba;
+  border: 2px solid #53b8ba;
+}
+
+.fa-envelope {
+  margin-right: 0.4em;
+}
 
 .fa-heart {
   color:#f32323;
