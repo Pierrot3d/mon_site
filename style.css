@@ -177,13 +177,15 @@ section.success {
 
 section.success a
 {
-  color:black;
+  color:white;
+  background-color:#53b8ba;
   transition: 0.4s ease;
 }
 section.success a:hover {
     outline: 0;
-    color: #fff;
-  border: 2px solid #fff;
+    color: #53b8ba;
+    background-color: #fff;
+  border: 2px solid #53b8ba;
 }
 .contact-button
 {
@@ -356,6 +358,8 @@ a.link-instagram:hover{
     background-color: #53b8ba;
     border-color: transparent!important;
 }
+
+
 .fa-heart {
   color:#f32323;
 }
