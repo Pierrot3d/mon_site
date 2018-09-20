@@ -10,6 +10,15 @@ body, head, h1, h2, h3, h4, h5, h6, p, a {
 font-family: "Nunito" !important;
 }
 
+q {
+  font-style: italic;
+}
+
+a:link
+{
+text-decoration:none;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -245,7 +254,7 @@ p.content-text { font-size: 25px; }
 }
 
 .portfolio-container-holder{
-	background: #eee;
+	background: #F5F5F5;
 	padding-bottom: 20px;
 }
 
