@@ -19,12 +19,13 @@ a:link
 text-decoration:none;
 }
 
+
 /* Fleche de defilement vers le bas bouge */
 
 i.fa-angle-down {
    font-size: 6em;
    position: absolute; /* postulat de départ */
-  top: 90%; left: 50%; /* à 80%/50% du parent référent */
+  top: 90%; left: 45%; /* à 80%/50% du parent référent */
   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 }
 
@@ -67,7 +68,9 @@ ul.navbar-nav {
 ul.navbar-nav li
 {
   padding: 0 10px;
+  margin: 1em;
 }
+
 @media only screen and (max-width:767px)
 { ul.navbar-nav { float:none; } }
 .container-fluid {
@@ -93,6 +96,15 @@ a.navbar-brand .fa-globe
   color: black;
   transition:0.5s ease;
 }
+
+.logo {
+  border: none;
+  width: 7em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
 a.navbar-brand .fa-globe:hover
 {
   color: #3935e6;
@@ -106,13 +118,18 @@ a.navbar-brand .fa-globe:hover
   border: none !important;
 }
 
+.navbar-inverse .navbar-toggle {
+    margin-top: 1.5em;
+}
+
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #fff!important;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 996px;
+  max-width: 80%;
+  width: 80%;
 }
 .splash {
   background: no-repeat fixed center bottom;
