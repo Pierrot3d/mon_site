@@ -25,7 +25,7 @@ text-decoration:none;
 i.fa-angle-down {
    font-size: 6em;
    position: absolute; /* postulat de départ */
-  top: 90%; left: 45%; /* à 80%/50% du parent référent */
+  top: 90%; left: 48%; /* à 80%/50% du parent référent */
   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 }
 
