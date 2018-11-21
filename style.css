@@ -67,6 +67,11 @@ a.navbar-brand .fa-globe
   margin-bottom: 1em;
 }
 
+.medal {
+  border: none;
+  width: 2em;
+  margin-bottom: 1em;
+}
 
 a.navbar-brand .fa-globe:hover
 {
