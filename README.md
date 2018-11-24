@@ -20,3 +20,4 @@ Méthode de rapport de bug, contribution
 
 
 Les commit doivent IMPERATIVEMENT être précis et porter sur une seule modification / amélioration.
+Les images sont au format WEBP et SVG.
