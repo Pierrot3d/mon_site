@@ -470,4 +470,9 @@ hr.copyright
   body {
     font-size: 12px;
   }
+
+  #menu
+  {
+    background-color: rgba(255, 255, 255);
+  }
 }
